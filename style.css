@@ -1,0 +1,43 @@
+.main {
+  position: relative;
+  top: 50%;
+  margin: 100px auto;
+
+  max-width: 860px;
+
+  background-color: rgba(114, 55, 55, 0.836);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.section {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#task {
+  display: block;
+  margin: 20px 0;
+  width: 50%;
+}
+
+button {
+  padding: 20px;
+  border-radius: 10px;
+  border-color: azure;
+
+  transition: background-color 0.2s ease-in;
+}
+
+button:hover {
+  background-color: azure;
+}
